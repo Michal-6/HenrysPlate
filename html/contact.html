@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Henry's Plate, a Symphony of Flavours on Your Plate">
+    <title>Henry's Plate | Contact</title>
+    <link rel="stylesheet" href="../css/index/index_style.css">
+    <link rel="shortcut icon" href="../assets/other/logo.png" type="image/x-icon">
+    <script src="../js/ham.js" defer></script>
+    <script src="../js/observer.js" defer></script>
+    <script src="../js/transitions.js" defer></script>
+</head>
+<body>
+    <div class="transition transition-1 is-active"></div>
+    <nav>
+        <a class="hidden" href="./index.html" style="transition-delay: 600ms;">
+            <img src="../assets/other/logo.png" alt="logo">
+        </a>
+        <div class="hidden" style="transition-delay: 700ms;" id="ham">
+            <input id="_checkbox" type="checkbox" name="checkbox"/>
+            <div class="hamburger-lines">
+                  <span class="line line1"></span>
+                  <span class="line line2"></span>
+                  <span class="line line3"></span>
+            </div> 
+        </div>
+    </nav>
+    <div id="navmenu">
+        <a style="animation-delay: 400ms;" href="./index.html">Home</a>
+        <a style="animation-delay: 500ms;" href="./about.html">About</a>
+        <a style="animation-delay: 600ms;" href="./menu.html">Menu</a>
+        <a style="animation-delay: 700ms;" href="./reservations.html">Reservations</a>
+        <a style="animation-delay: 800ms;" href="./gallery.html">Gallery</a>
+        <a class="active" style="animation-delay: 900ms;" href="./contact.html">Contact</a>
+    </div>
+
+    <header class="hero contact-hero">
+        <div class="hero-title">
+            <h1 class="hidden" style="transition-delay: 800ms;">Contact</h1>
+            <div class="hidden-underline underline" style="transition-delay: 900ms;">
+                <hr>
+                <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="4" cy="4" r="4" fill="currentColor"/>
+                </svg>                        
+                <hr>
+            </div>
+            <h2 class="hidden" style="transition-delay: 1000ms;">Send Us A Message</h2>
+        </div>
+    </header>
+
+    <section id="contact">
+        <div class="title">
+            <h1 class="hidden">Contact Us Now</h1>
+            <div class="hidden-underline underline" style="transition-delay: 100ms;">
+                <hr>
+                    <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="4" cy="4" r="4" fill="currentColor"/>
+                    </svg>                        
+                <hr>
+            </div>
+        </div>
+        <form id="contact-form" action="" method="">
+            <div class="form-row">
+                <span class="hidden input-field" style="transition-delay: 200ms;">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.33333 16C1.33333 16 0 16 0 14.6667C0 13.3333 1.33333 9.33333 8 9.33333C14.6667 9.33333 16 13.3333 16 14.6667C16 16 14.6667 16 14.6667 16H1.33333ZM8 8C9.06087 8 10.0783 7.57857 10.8284 6.82843C11.5786 6.07828 12 5.06087 12 4C12 2.93913 11.5786 1.92172 10.8284 1.17157C10.0783 0.421427 9.06087 0 8 0C6.93913 0 5.92172 0.421427 5.17157 1.17157C4.42143 1.92172 4 2.93913 4 4C4 5.06087 4.42143 6.07828 5.17157 6.82843C5.92172 7.57857 6.93913 8 8 8Z" fill="#FDC832"/>
+                    </svg>
+                    <input maxlength="70" required placeholder="Your Name" type="text" name="name" id="name">
+                </span>
+                <span class="hidden input-field" style="transition-delay: 300ms;">
+                    <svg width="22" height="16" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.400163 2.07333C0.534587 1.48432 0.865036 0.958417 1.33739 0.581744C1.80975 0.205072 2.39601 -4.06592e-05 3.00016 6.04552e-09H19.0002C19.6043 -4.06592e-05 20.1906 0.205072 20.6629 0.581744C21.1353 0.958417 21.4657 1.48432 21.6002 2.07333L11.0002 8.552L0.400163 2.07333ZM0.333496 3.596V13.068L8.07083 8.324L0.333496 3.596ZM9.34816 9.10667L0.588163 14.476C0.804598 14.9324 1.1462 15.3179 1.5732 15.5877C2.00021 15.8575 2.49506 16.0005 3.00016 16H19.0002C19.5052 16.0001 19.9998 15.8568 20.4266 15.5868C20.8534 15.3168 21.1947 14.9311 21.4108 14.4747L12.6508 9.10533L11.0002 10.1147L9.34816 9.10667ZM13.9295 8.32533L21.6668 13.068V3.596L13.9295 8.324V8.32533Z" fill="#FDC832"/>
+                    </svg>
+                    <input maxlength="254" required placeholder="Your Email" type="email" name="email" id="email">
+                </span>
+            </div>
+            <div class="form-row">
+                <textarea placeholder="Message..." class="hidden" name="message" id="textarea" cols="30" rows="10" style="transition-delay: 400ms;"></textarea>
+            </div>
+            <div class="form-row">
+                <button class="hidden send" type="submit" style="transition-delay: 600ms;"><p>Send</p></button>
+            </div>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer-top">
+            <img class="hidden" src="../assets/other/logo2.png" alt="logo">
+            <div class="social">
+                <a class="hidden social-link" style="transition-delay: 100ms;" href="#">
+                    <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M32 17.0511C32 8.16022 24.8369 0.953125 16.002 0.953125C7.1631 0.955125 0 8.16022 0 17.0531C0 25.0861 5.85127 31.7453 13.4983 32.9531V21.7045H9.43882V17.0531H13.5023V13.5036C13.5023 9.47006 15.892 7.24234 19.5456 7.24234C21.2973 7.24234 23.1271 7.5563 23.1271 7.5563V11.5158H21.1094C19.1236 11.5158 18.5037 12.7576 18.5037 14.0315V17.0511H22.9391L22.2312 21.7025H18.5017V32.9511C26.1487 31.7433 32 25.0841 32 17.0511Z" fill="currentColor"/>
+                    </svg>
+                </a>
+                <a class="hidden social-link" style="transition-delay: 200ms;" href="#">
+                    <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16 0.953125C11.658 0.953125 11.112 0.973125 9.406 1.04913C7.7 1.12912 6.538 1.39712 5.52 1.79312C4.45219 2.19476 3.48498 2.82478 2.686 3.63913C1.87215 4.43852 1.24221 5.4056 0.84 6.47312C0.444 7.48913 0.174 8.65312 0.096 10.3531C0.02 12.0631 0 12.6071 0 16.9551C0 21.2991 0.02 21.8431 0.096 23.5491C0.176 25.2531 0.444 26.4151 0.84 27.4331C1.25 28.4851 1.796 29.3771 2.686 30.2671C3.574 31.1571 4.466 31.7051 5.518 32.1131C6.538 32.5091 7.698 32.7791 9.402 32.8571C11.11 32.9331 11.654 32.9531 16 32.9531C20.346 32.9531 20.888 32.9331 22.596 32.8571C24.298 32.7771 25.464 32.5091 26.482 32.1131C27.5491 31.7113 28.5156 31.0813 29.314 30.2671C30.204 29.3771 30.75 28.4851 31.16 27.4331C31.554 26.4151 31.824 25.2531 31.904 23.5491C31.98 21.8431 32 21.2991 32 16.9531C32 12.6071 31.98 12.0631 31.904 10.3551C31.824 8.65313 31.554 7.48913 31.16 6.47312C30.7578 5.40558 30.1279 4.43848 29.314 3.63913C28.5153 2.82448 27.548 2.19442 26.48 1.79312C25.46 1.39712 24.296 1.12712 22.594 1.04913C20.886 0.973125 20.344 0.953125 15.996 0.953125H16.002H16ZM14.566 3.83713H16.002C20.274 3.83713 20.78 3.85113 22.466 3.92913C24.026 3.99913 24.874 4.26113 25.438 4.47913C26.184 4.76912 26.718 5.11713 27.278 5.67712C27.838 6.23712 28.184 6.76912 28.474 7.51713C28.694 8.07912 28.954 8.92713 29.024 10.4871C29.102 12.1731 29.118 12.6791 29.118 16.9491C29.118 21.2191 29.102 21.7271 29.024 23.4131C28.954 24.9731 28.692 25.8191 28.474 26.3831C28.2175 27.0778 27.8081 27.706 27.276 28.2211C26.716 28.7811 26.184 29.1271 25.436 29.4171C24.876 29.6371 24.028 29.8971 22.466 29.9691C20.78 30.0451 20.274 30.0631 16.002 30.0631C11.73 30.0631 11.222 30.0451 9.536 29.9691C7.976 29.8971 7.13 29.6371 6.566 29.4171C5.871 29.161 5.24225 28.7523 4.726 28.2211C4.1935 27.7052 3.78345 27.0764 3.526 26.3811C3.308 25.8191 3.046 24.9711 2.976 23.4111C2.9 21.7251 2.884 21.2191 2.884 16.9451C2.884 12.6731 2.9 12.1691 2.976 10.4831C3.048 8.92312 3.308 8.07513 3.528 7.51113C3.818 6.76513 4.166 6.23112 4.726 5.67112C5.286 5.11112 5.818 4.76513 6.566 4.47513C7.13 4.25513 7.976 3.99513 9.536 3.92313C11.012 3.85512 11.584 3.83513 14.566 3.83313V3.83713ZM24.542 6.49312C24.2899 6.49312 24.0402 6.54279 23.8072 6.63928C23.5743 6.73577 23.3626 6.87719 23.1844 7.05548C23.0061 7.23377 22.8646 7.44543 22.7682 7.67837C22.6717 7.91132 22.622 8.16099 22.622 8.41313C22.622 8.66526 22.6717 8.91493 22.7682 9.14788C22.8646 9.38082 23.0061 9.59248 23.1844 9.77077C23.3626 9.94906 23.5743 10.0905 23.8072 10.187C24.0402 10.2835 24.2899 10.3331 24.542 10.3331C25.0512 10.3331 25.5396 10.1308 25.8996 9.77077C26.2597 9.4107 26.462 8.92234 26.462 8.41313C26.462 7.90391 26.2597 7.41555 25.8996 7.05548C25.5396 6.69541 25.0512 6.49312 24.542 6.49312ZM16.002 8.73712C14.9121 8.72012 13.8298 8.9201 12.818 9.32541C11.8061 9.73072 10.885 10.3333 10.1083 11.098C9.33157 11.8627 8.71473 12.7743 8.29368 13.7796C7.87264 14.785 7.6558 15.8641 7.6558 16.9541C7.6558 18.0441 7.87264 19.1232 8.29368 20.1286C8.71473 21.134 9.33157 22.0456 10.1083 22.8103C10.885 23.575 11.8061 24.1775 12.818 24.5828C13.8298 24.9882 14.9121 25.1881 16.002 25.1711C18.1591 25.1375 20.2164 24.257 21.73 22.7196C23.2435 21.1823 24.0918 19.1115 24.0918 16.9541C24.0918 14.7968 23.2435 12.726 21.73 11.1886C20.2164 9.6513 18.1591 8.77078 16.002 8.73712ZM16.002 11.6191C17.4167 11.6191 18.7734 12.1811 19.7737 13.1814C20.774 14.1817 21.336 15.5385 21.336 16.9531C21.336 18.3678 20.774 19.7245 19.7737 20.7248C18.7734 21.7252 17.4167 22.2871 16.002 22.2871C14.5873 22.2871 13.2306 21.7252 12.2303 20.7248C11.23 19.7245 10.668 18.3678 10.668 16.9531C10.668 15.5385 11.23 14.1817 12.2303 13.1814C13.2306 12.1811 14.5873 11.6191 16.002 11.6191Z" fill="currentColor"/>
+                    </svg>
+                </a>
+                <a class="hidden social-link" style="transition-delay: 300ms;" href="#">
+                    <svg width="32" height="27" viewBox="0 0 32 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.052 26.954C22.128 26.954 28.734 16.948 28.734 8.28602C28.734 8.00602 28.734 7.72202 28.722 7.44202C30.0081 6.51099 31.1181 5.35833 32 4.03802C30.7986 4.56772 29.5255 4.91683 28.222 5.07402C29.5951 4.2533 30.6234 2.96196 31.116 1.44002C29.826 2.20427 28.414 2.74077 26.942 3.02602C25.9524 1.97207 24.6428 1.27386 23.2162 1.03954C21.7895 0.805218 20.3254 1.04787 19.0507 1.7299C17.7759 2.41193 16.7616 3.49528 16.1649 4.81214C15.5682 6.12901 15.4224 7.60589 15.75 9.01402C13.1395 8.88313 10.5856 8.20496 8.25409 7.02351C5.92254 5.84206 3.86537 4.18371 2.216 2.15602C1.37868 3.60219 1.12315 5.31282 1.50129 6.94055C1.87944 8.56829 2.86291 9.99108 4.252 10.92C3.21108 10.8847 2.19304 10.6051 1.28 10.104V10.194C1.28179 11.709 1.80661 13.1769 2.76575 14.3495C3.72488 15.5222 5.0595 16.3278 6.544 16.63C5.98053 16.7853 5.39846 16.8626 4.814 16.86C4.40197 16.8613 3.99076 16.8231 3.586 16.746C4.00557 18.0501 4.82255 19.1904 5.92249 20.007C7.02244 20.8236 8.35027 21.2757 9.72 21.3C7.39311 23.1276 4.5188 24.1188 1.56 24.114C1.03864 24.1162 0.517646 24.0862 0 24.024C3.00303 25.9385 6.4906 26.9551 10.052 26.954Z" fill="currentColor"/>
+                    </svg>      
+                </a>              
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="address">
+                <p class="hidden" style="transition-delay: 400ms;">123 Gourmet Grove, Savoryville</p>
+                <p class="hidden" style="transition-delay: 500ms;">Fictionalland, FL 54321</p>
+            </div>
+            <div class="opening">
+                <p class="hidden" style="transition-delay: 500ms;"><b>Mon - Fri: </b>08:00 am - 10:00 pm</p>
+                <p class="hidden" style="transition-delay: 600ms;"><b>Sat - Sun: </b>10:00am - 11:00 pm</p>
+            </div>
+            <div class="contact">
+                <a class="hidden contact-email" style="transition-delay: 600ms;" href="mailto:info@henrysplate.com"><p>info@henrysplate.com</p></a>
+                <p class="hidden" style="transition-delay: 700ms;">+00  51 185 3652 </p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
