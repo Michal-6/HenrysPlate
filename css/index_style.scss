@@ -183,14 +183,13 @@ nav{
         width: 544px;
     }
 }
-.about-hero{background-image: url(../../assets/banners/aboutBanner.png);}
-.menu-hero{background-image: url(../../assets/banners/menuBanner.png);}
-.reservations-hero{background-image: url(../../assets/banners/reservationsBanner.png);}
-.gallery-hero{background-image: url(../../assets/banners/galleryBanner.png);}
-.contact-hero{background-image: url(../../assets/banners/contactBanner.png);}
-
+.about-hero{background-image: url(../assets/banners/aboutBanner.png);}
+.menu-hero{background-image: url(../assets/banners/menuBanner.png);}
+.reservations-hero{background-image: url(../assets/banners/reservationsBanner.png);}
+.gallery-hero{background-image: url(../assets/banners/galleryBanner.png);}
+.contact-hero{background-image: url(../assets/banners/contactBanner.png);}
 .home-hero{
-    min-height: 440px; background-image: url(../../assets/banners/homeBanner.png); background-repeat: no-repeat; background-position-x: center; background-size: cover; height: 100vh;
+    min-height: 440px; background-image: url(../assets/banners/homeBanner.png); background-repeat: no-repeat; background-position-x: center; background-size: cover; height: 100vh;
     display: flex; flex-direction: column; justify-content: center; align-items: center; gap: var(--gap64); padding: 0px var(--lrp);
     .home-hero-article{
         display: flex; flex-direction: column; gap: var(--gap32);
