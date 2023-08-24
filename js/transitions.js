@@ -13,7 +13,6 @@ window.onload = () => {
             let target = e.target.href;
 
             transition_el.classList.add('is-active');
-            console.log(target);
             setTimeout(() => {
                 window.location.href = target;
             }, 500);

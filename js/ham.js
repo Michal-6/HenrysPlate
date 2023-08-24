@@ -7,7 +7,6 @@ menu.style.opacity = "0";
 checkbox.addEventListener('change', function() {
     if (this.checked) {
       checkbox.classList.add('sb-hidden');
-      console.log("Checkbox is checked..");
       menu.style.opacity = "1";
       menu.style.zIndex = "90";
       for(var i = 0; i < anchors.length; i++){
@@ -15,7 +14,6 @@ checkbox.addEventListener('change', function() {
       }
     } else {
       checkbox.classList.remove('sb-hidden');
-      console.log("Checkbox is not checked..");
       menu.style.opacity = "0";
       menu.style.zIndex = "-1";
       for(var i = 0; i < anchors.length; i++){

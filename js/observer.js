@@ -5,7 +5,6 @@ const observer = new IntersectionObserver((entries) => {
                 entry.target.classList.add('show');
                 setTimeout(() => {
                     entry.target.style.transitionDelay = "0ms";
-                    console.log(entry.target);
                 }, 700)
             }
             if(entry.target.classList.contains("hidden-underline")){
@@ -13,7 +12,6 @@ const observer = new IntersectionObserver((entries) => {
             }
             if(entry.target.classList.contains("hidden-img")){
                 entry.target.classList.add('show-img');
-                console.log("yes");
             }
         }
         else{
