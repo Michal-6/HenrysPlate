@@ -1,14 +1,14 @@
 @font-face {
   font-family: Caveat;
-  src: url(../../assets/fonts/Caveat-VariableFont_wght.ttf);
+  src: url(../assets/fonts/Caveat-VariableFont_wght.ttf);
 }
 @font-face {
   font-family: Crimson;
-  src: url(../../assets/fonts/CrimsonText-Bold.ttf);
+  src: url(../assets/fonts/CrimsonText-Bold.ttf);
 }
 @font-face {
   font-family: SansSerif;
-  src: url(../../assets/fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+  src: url(../assets/fonts/OpenSans-VariableFont_wdth\,wght.ttf);
 }
 :root {
   color-scheme: dark;
@@ -449,28 +449,28 @@ nav a img {
 }
 
 .about-hero {
-  background-image: url(../../assets/banners/aboutBanner.png);
+  background-image: url(../assets/banners/aboutBanner.png);
 }
 
 .menu-hero {
-  background-image: url(../../assets/banners/menuBanner.png);
+  background-image: url(../assets/banners/menuBanner.png);
 }
 
 .reservations-hero {
-  background-image: url(../../assets/banners/reservationsBanner.png);
+  background-image: url(../assets/banners/reservationsBanner.png);
 }
 
 .gallery-hero {
-  background-image: url(../../assets/banners/galleryBanner.png);
+  background-image: url(../assets/banners/galleryBanner.png);
 }
 
 .contact-hero {
-  background-image: url(../../assets/banners/contactBanner.png);
+  background-image: url(../assets/banners/contactBanner.png);
 }
 
 .home-hero {
   min-height: 440px;
-  background-image: url(../../assets/banners/homeBanner.png);
+  background-image: url(../assets/banners/homeBanner.png);
   background-repeat: no-repeat;
   background-position-x: center;
   background-size: cover;
